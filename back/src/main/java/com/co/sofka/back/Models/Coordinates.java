@@ -14,7 +14,7 @@ public class Coordinates {
     private String id;
     private String latitud;
     private String longitud;
-    private Date date;
+    private String date;
 
     public String getId() {
         return id;
@@ -40,11 +40,11 @@ public class Coordinates {
         this.longitud = longitud;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 }
